@@ -1,0 +1,219 @@
+
+:root {
+    --neutral-light: #EADDCA;
+    --neutral-medium: #ccc;
+    --neutral-dark: #333;
+  
+    --earth-tone-1: #d2b48c; 
+    --earth-tone-2: #8b4513; 
+  
+    --light-pink: #A95C68;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--neutral-light);
+    color: var(--earth-tone-2);
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--earth-tone-1);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--light-pink);
+  }
+  
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: var(--neutral-light); 
+  padding: 10px;
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+
+.nav-item {
+  margin: 0 10px;
+}
+
+
+.nav-link {
+  color: var(--earth-tone-2); 
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+.nav-link.active {
+  background-color: var(--earth-tone-1); 
+}
+
+
+.nav-link:hover {
+  background-color: var(--earth-tone-1); /* Adjust as needed */
+}
+
+  
+
+  footer {
+    background-color: var(--neutral-light);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    color: var(--earth-tone-1);
+  }
+  
+  footer a:hover {
+    color: var(--light-pink);
+  }
+  
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* About Me Page */
+  .header {
+    color: var(--earth-tone-2);
+  }
+
+  .prof-pic {
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .portfolio-page {
+    padding: 20px;
+  }
+  
+  .application-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .portfolio-card {
+    border: 1px solid var(--light-pink);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: var(--neutral-light);
+    width: calc(33.333% - 20px);
+  }
+  
+  .portfolio-card h3 {
+    margin-top: 0;
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-card .links a {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--earth-tone-2);
+  }
+  
+  
+  .resume-section {
+    padding: 20px;
+    background-color: var(--neutral-light);
+    /* border-radius: 8px; */
+    /* border: 1px solid var(--neutral-medium); */
+  }
+  
+  .resume-section h2,
+  .resume-section h3 {
+    color: var(--earth-tone-2);
+  }
+  
+  .resume-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resume-section ul li {
+    /* background-color: var(--earth-tone-1); */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: 1px solid var(--neutral-medium);
+    border-radius: 4px;
+  }
+  
+  form .error {
+    color: var(--light-pink);
+    font-size: 0.9em;
+  }
+  
+  form button {
+    background-color: #7B3F00;
+    color: var(--neutral-light);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: var(--light-pink);
+  }
+  
+ 
+  #error-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
