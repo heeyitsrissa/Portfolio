@@ -12,7 +12,7 @@ function NavBar() {
                         to="/"
                         className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                     >
-                        About Me
+                        About
                     </Link>
                 </li>
                 <li className="nav-item">
@@ -28,7 +28,7 @@ function NavBar() {
                         to="/Contact"
                         className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
                     >
-                        Contact Me
+                        Contact
                     </Link>
                 </li>
                 <li className="nav-item">
